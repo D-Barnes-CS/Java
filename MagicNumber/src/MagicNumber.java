@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MagicNumber {
-//Creating an array for the user to give me at max 5 guesses.
+//Creating an array  for the user to give me at max 5 guesses.
     int guess[] = new int[5];
 /*Method if only one person is guessing the MagicNumber
 /Attempts to check for each int in the array and see if its equal to our magic
