@@ -12,8 +12,8 @@ public class MagicNumber {
 /number.
 */
     boolean guessed(MagicNumber num, int magic) {
-        for (int i = 0; i < guess.length; i++) {
-            if (guess[i] == magic) {
+        for (int element : guess) {
+            if (element == magic) {
                 break;
             } else {
                 return false;
